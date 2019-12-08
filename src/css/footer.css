@@ -1,0 +1,18 @@
+.main-footer{
+    background-color: #344b8e;
+}
+.main-footer__ul__item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main-footer__ul{
+    display: flex;
+    justify-content: space-around;
+}
+.main-footer__ul__item{
+    padding: 30px;
+}
+.main-footer__ul__item a:hover{
+  color: #30bae7;
+}
