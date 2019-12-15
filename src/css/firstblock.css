@@ -1,7 +1,13 @@
-body{
-    font-family: 'Titillium Web', sans-serif;
+.main-header{
+    background-color: #8d59a0;
+    color: white;
+    text-align: center;
+    padding-bottom: 120px;
 }
-
+.header__text{
+    font-weight: bold;
+    font-size: 42px;
+}
 ul, li{
     display: block;
     padding: 0;
@@ -13,11 +19,10 @@ ul, li{
     box-sizing: border-box;
 }
 .menu__item a{
-    
     padding: 5px 20px;
-font-size: 16px;
-font-weight: 18px;
-color: white;
+    font-size: 16px;
+    font-weight: 18px;
+    color: white;
 }
 .menu__item{
     text-transform: uppercase;
@@ -25,27 +30,15 @@ color: white;
     box-sizing: border-box;
 }
 .menu__item a:hover{
-    background-color: #6c3a80;
-   
+    background-color: #6c3a80; 
     text-decoration: none;
+    transition: 0.7s;
     border-radius: 5px;
 }
-.main-header{
-    background-color: #8d59a0;
-    color: white;
-    text-align: center;
-}
+
 .header_button{
     background-color: #eb7d4b;
-    border: none;
-    border-radius: 4px;
-    color: white;
-padding: 28px 81px;
-font-size: 18px;
-margin-top: 60px;
-margin-bottom: 146px;
-box-shadow: 0 5px 1px rgb(200,106,64);
-      
+    box-shadow: 0 5px 1px rgb(200,106,64);  
 }
 .header__text{
     margin-top: 139px;

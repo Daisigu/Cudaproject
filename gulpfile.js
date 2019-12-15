@@ -11,7 +11,6 @@ const browserSync = require('browser-sync').create();
 const cssFiles = [
    './src/css/circle.css',
    './src/css/fonts.css',
-   './src/css/main.css',
    './src/css/firstblock.css',
    './src/css/secondblock.css',
    './src/css/thirdblock.css',
@@ -19,12 +18,17 @@ const cssFiles = [
    './src/css/fiveblock.css',
    './src/css/sixblock.css',
    './src/css/sevenblock.css',
-   './src/css/footer.css'
+   './src/css/footer.css',
+   './src/css/popupcontacts.css',
+   './src/css/animate.css',
+   './src/css/main.css'
 ]
 //Порядок подключения js файлов
 const jsFiles = [
+   './src/js/jquery-3.4.1.min.js',
    './src/js/lib.js',
-   './src/js/main.js'
+   './src/js/main.js',
+   './src/js/jquery.viewportchecker.js'
 ]
 
 //Таск на стили CSS

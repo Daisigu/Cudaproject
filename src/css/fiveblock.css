@@ -1,31 +1,7 @@
 .block5{
     background-color: #ffdd99;
-}
-.block5__text::after
-{
-    content: "";
-    display: block;
-    
- 
-   margin-top: 10px;
-   margin: 20px auto;
-    width: 107px;
-    height: 4px;
-    background: black;
-    opacity: 0.15;
- 
-}
-.block5__text{
-    font-size: 40px;
+    padding-bottom: 120px;
     padding-top: 110px;
-    text-align: center;
-    text-transform: uppercase;
-    
-}
-.block5__text_p{
-    font-weight: lighter;
-   padding-bottom: 40px;
-    text-align: center;
 }
 .block5__ul{
     display: flex;
@@ -43,7 +19,6 @@
     border-radius: 4px;
     text-transform: uppercase;
     padding-top: 2px;
-
 }
 .block5__ul__item a{
     color:#534f46;
@@ -51,6 +26,7 @@
 }
 .block5__ul__item:hover{
     background-color: #fff;
+    transition: 0.7s;
 }
 .portfolio__ul{
     display: flex;
@@ -66,23 +42,10 @@
 .portfolio__ul__item{
     margin-right: 14px;
 }
-.block5__button{
-    border-radius: 3px;
-    display: block;
-    width: 250px;
-
-    border: none;
-    height: 50px;
+.button-block5{
     background-color: #17c2a4;
     box-shadow: 0 5px 1px rgb(20,165,140);
-    color: #fff;
-    position: relative;
-    margin:0 auto;
-
-    margin-top: 50px;
-    text-transform: uppercase;
-    font-size: 13px;
 }
-.button-wrapper{
-    padding-bottom: 90px;
+.block5__text__p-mod{
+    padding-bottom: 20px;
 }

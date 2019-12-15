@@ -1,33 +1,11 @@
-.block4__text::after
-{
-    content: "";
-    display: block;
-    
- 
-   margin-top: 10px;
-   margin: 20px auto;
-    width: 107px;
-    height: 4px;
-    background: black;
-    opacity: 0.15;
- 
-}
-.block4__text{
-    font-size: 40px;
+.block4{
+    padding-bottom: 120px;
     padding-top: 110px;
-    text-align: center;
-    text-transform: uppercase;
-    
-}
-.block4__text_p{
-    font-weight: lighter;
-   padding-bottom: 73px;
-    text-align: center;
+    background-color: white;
 }
 .block4__ul{
     display: flex;
     justify-content: space-around;
-    padding-bottom: 120px;
 }
 .block4__ul__item > p{
     font-size: 20px;
@@ -39,7 +17,6 @@
 }
 .block4__ul__item > .c100{
     margin: 0;
-    
     top: 9%;
     left: 17%;
 }

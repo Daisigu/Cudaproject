@@ -1,228 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   <link rel="stylesheet" href="build/css/style.css">
-   <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="build/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
 
-   <title>Cuda</title>
+  <title>Cuda</title>
 </head>
-<body>
-   <header class="menu-bar">
-   <div class="container">
+
+  <header class="menu-bar">
+    <div class="container">
       <div class="row">
-         <div class="col-xl-1">
-            <img src="./src/img/logo.png" alt="logo" class="logo">
-         </div>
-         <div class="col-xl-6 ml-auto align-self-center">
-            <nav>
-               <ul class="menu d-flex juctify-content-end">
-                  <li class="menu__item"><a href="#">Home</a></li>
-                  <li class="menu__item"><a href="#">About</a></li>
-                  <li class="menu__item"><a href="#">Work</a></li>
-                  <li class="menu__item"><a href="#">Blog</a></li>
-                  <li class="menu__item"><a href="#">Contact</a></li>
-               </ul>
-            </nav>
-         </div>
-      </div>
-   </div>   
-   </header>
-   <header class="main-header">
-      <div class="container">
-         <div class="row">
-            <div class="col-xl-12">
-               <h1 class="header__text">Hi there! We are the new kids on the block  and we build awesome websites and mobile apps.</h1>
-               <button class="button header_button">WORK WITH US!</button>
-            </div>
-         </div>
-      </div>
-   </header>
-   <section class="block2">
-      <div class="container">
-      <h3 class="block2__text">SERVICES WE PROVIDE</h3>
-      <p class="block2__text_p">We are working with both individuals and businesses from all over the globe to create awesome websites and applications</p>
-      <ul class="block2__ul">
-    <li class="block2__ul__item">
-       <img src="/src/img/flagicon.png" alt="flagicon">
-       <h2>Branding</h2>
-       <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nommuny nibh. </p>
-    </li>
-    <li class="block2__ul__item">
-       <img src="/src/img/crayonicon.png" alt="crayonicon">
-         <h2> Design</h2>
-       <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
-    </li>
-    <li class="block2__ul__item">
-       <img src="./src/img/gearsicon.png" alt="gearsicon">
-         <h2> Development</h2>
-       <p>At vero eos et accusamus et iusto odio dignissimos qui blanditi</p>
-    </li>
-    <li class="block2__ul__item">
-       <img src="./src/img/rocketicon.png" alt="rocketicon">
-         <h2> Rocket Sience</h2>
-       <p>Et harum quidem rerum est et expedita distinctio. Nam libero te</p>
-    </li>
-      </ul>
-   </div>
-   </section>
-   <section class="block3">
-      <div class="container">
-         <h3 class="block3__text">MEET OUR BEAUTIFUL TEAM</h3>
-         <p class="block3__text_p">We are a small team of designers and developers, who help brands, with big ideas.</p>
-         <ul class="block3__ul">
-            <li class="block3__ul__item">
-               <img class="block3__ul__item__img" src="./src/img/ea.jpg" alt="" width="205" height="205">
-               <h2>ANNE HATHAWAY</h2>
-               <p class="block3__ul__item__p_blue">CEO / Marketing Guru</p>               
-               <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna. </p>
-            <ul class="socialbutton_ul">
-               <li><a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a></li>
-               <li><a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a></li>
-               <li><a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a></li>
-               <li><a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a></li>
+        <div class="col-xl-1">
+          <img src="./src/img/logo.png" alt="logo" class="logo">
+        </div>
+        <div class="col-xl-6 ml-auto align-self-center">
+          <nav>
+            <ul class="menu d-flex juctify-content-end">
+              <li class="menu__item"><a href="#">Home</a></li>
+              <li class="menu__item"><a href="#">About</a></li>
+              <li class="menu__item"><a href="#">Work</a></li>
+              <li class="menu__item"><a href="#">Blog</a></li>
+              <li class="menu__item"><a class="contact" href="#">Contact</a></li>
             </ul>
-            </li>
-            <li class="block3__ul__item">
-                  <img class="block3__ul__item__img" src="./src/img/ps.jpg" alt="" width="205" height="205">
-               <h2>Kate Upton</h2>
-               <p class="block3__ul__item__p_blue">Creative Director</p>
-               <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna.</p>
-               <ul class="socialbutton_ul">
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a></li>
-                  </ul>
-            </li>
-            <li class="block3__ul__item">
-               <div class="img-wrapper">
-                  <img class="block3__ul__item__img" src="./src/img/js.jpg" alt="" width="205" height="205">
-               </div>
-               <h2>Olivia Wilde</h2>
-               <p class="block3__ul__item__p_blue">Lead Designer</p>
-               <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna.</p>
-               <ul class="socialbutton_ul">
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a></li>
-                  </ul>
-            </li>
-            <li class="block3__ul__item">
-                  <img class="block3__ul__item__img" src="./src/img/1.jpg" alt="" width="205" height="205">
-               <h2>Ashley Greene</h2>
-               <p class="block3__ul__item__p_blue">SEO / Developer</p>
-               <p>Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna.</p>
-               <ul class="socialbutton_ul">
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a></li>
-                  <li><a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a></li>
-                  </ul>
-            </li>
-         </ul>
+          </nav>
+        </div>
       </div>
-   </section>
-   <section class="block4">
-      <div class="container">
-         <h3 class="block4__text">We got skills</h3>
-         <p class="block4__text_p">Lorem ipsum dolor sit amet,  consectetuer adipiscing elit, sed diam nonummy<br> nibh euismod tincidunt ut leoreat dolore magna.
+    </div>
+  </header>
+  <header class="main-header">
+    <div class="overlay-wrapper">
+    <div class="container post">
+      <div class="row">
+        <div class="col-xl-12">
+          <h1 class="header__text">Hi there! We are the new kids on the block  and we build awesome websites and mobile apps.</h1>
+          <button class="button header_button">WORK WITH US!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+  <section class="block2">
+    <div class="container post">
+      <h3 class="block__text block2-text">SERVICES WE PROVIDE</h3>
+      <p class="block__text__p">We are working with both individuals and businesses from all over the globe to create awesome websites and applications</p>
+      <ul class="block2__ul">
+        <li class="block2__ul__item ">
+          <img src="/src/img/flagicon.png" alt="flagicon">
+          <h2>Branding</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nommuny nibh. </p>
+        </li>
+        <li class="block2__ul__item ">
+          <img src="/src/img/crayonicon.png" alt="crayonicon">
+          <h2> Design</h2>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+        </li>
+        <li class="block2__ul__item ">
+          <img src="./src/img/gearsicon.png" alt="gearsicon">
+          <h2> Development</h2>
+          <p>At vero eos et accusamus et iusto odio dignissimos qui blanditi</p>
+        </li>
+        <li class="block2__ul__item ">
+          <img src="./src/img/rocketicon.png" alt="rocketicon">
+          <h2> Rocket Sience</h2>
+          <p>Et harum quidem rerum est et expedita distinctio. Nam libero te</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="block3">
+    <div class="container post">
+      <h3 class="block__text block3-text">MEET OUR BEAUTIFUL TEAM</h3>
+      <p class="block__text__p">We are a small team of designers and developers, who help brands, with big ideas.</p>
+      <ul class="block3__ul">
+        <li class="block3__ul__item">
+          <img class="block3__ul__item__img" src="./src/img/ea.jpg" alt="" width="205" height="205">
+          <h2>ANNE HATHAWAY</h2>
+          <p class="block3__ul__item__p_blue">CEO / Marketing Guru</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna. </p>
+          <ul class="socialbutton_ul">
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li class="block3__ul__item">
+          <img class="block3__ul__item__img" src="./src/img/ps.jpg" alt="" width="205" height="205">
+          <h2>Kate Upton</h2>
+          <p class="block3__ul__item__p_blue">Creative Director</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna.</p>
+          <ul class="socialbutton_ul">
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li class="block3__ul__item">
+            <img class="block3__ul__item__img" src="./src/img/js.jpg" alt="" width="205" height="205">
+          <h2>Olivia Wilde</h2>
+          <p class="block3__ul__item__p_blue">Lead Designer</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna.</p>
+          <ul class="socialbutton_ul">
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a>
+            </li>
+          </ul>
+        </li>
+        <li class="block3__ul__item">
+          <img class="block3__ul__item__img" src="./src/img/1.jpg" alt="" width="205" height="205">
+          <h2>Ashley Greene</h2>
+          <p class="block3__ul__item__p_blue">SEO / Developer</p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut leoreat dolore magna.</p>
+          <ul class="socialbutton_ul">
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Facebook Icon.png" alt="facebook"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/LinkedIn icon.png" alt="linkedln"></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Twitter.png" alt=""></a>
+            </li>
+            <li>
+              <a class="socialbutton_ul__item"><img src="./src/img/Mail.png" alt=""></a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="block4">
+    <div class="container post">
+      <h3 class="block__text block4-text">We got skills</h3>
+      <p class="block__text__p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+        <br> nibh euismod tincidunt ut leoreat dolore magna.
       </p>
-         <ul class="block4__ul">
-            <li class="block4__ul__item">
-                  <div class="c100 p90 lightblue">
-                          <span>90%</span>
-                          <div class="slice">
-                            <div class="bar"></div>            
-                            <div class="fill"></div>       
-                          </div>
-                        </div>             
-               <p>web design</p>
-            </li>
-            <li class="block4__ul__item">
-                  <div class="c100 p75 pink">
-                        <span>75%</span>
-                        <div class="slice">
-                          <div class="bar"></div>            
-                          <div class="fill"></div>       
-                        </div>
-                      </div>   
-               <p>html / css</p>
-            </li>
-            <li class="block4__ul__item">
-              
-                  <div class="c100 p70 greenlight">
-                        <span>70%</span>
-                        <div class="slice">
-                          <div class="bar"></div>            
-                          <div class="fill"></div>       
-                        </div>
-                      </div> 
-                    
-               <p>graphic design</p>
-            </li>
-            <li class="block4__ul__item">
-                  <div class="c100 p85 darkorange">
-                        <span>85%</span>
-                        <div class="slice">
-                          <div class="bar"></div>            
-                          <div class="fill"></div>       
-                        </div>
-                      </div>   
-               <p>ui / ux</p>
-            </li>
-         </ul>
+      <ul class="block4__ul">
+        <li class="block4__ul__item">
+          <div class="c100 p90 lightblue">
+            <span>90%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <p>web design</p>
+        </li>
+        <li class="block4__ul__item">
+          <div class="c100 p75 pink">
+            <span>75%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <p>html / css</p>
+        </li>
+        <li class="block4__ul__item">
+
+          <div class="c100 p70 greenlight">
+            <span>70%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+
+          <p>graphic design</p>
+        </li>
+        <li class="block4__ul__item">
+          <div class="c100 p85 darkorange">
+            <span>85%</span>
+            <div class="slice">
+              <div class="bar"></div>
+              <div class="fill"></div>
+            </div>
+          </div>
+          <p>ui / ux</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="block5">
+    <div class="container post">
+      <h3 class="block__text block5-text">Our porfolio</h3>
+      <p class="block__text__p block5__text__p-mod">When you were here before Couldn't look you in the eye You're just like an angel
+        <br> Your skin makes me cry You float like a feather In a beautiful world I wish I was special You're so fuckin' special </p>
+      <ul class="block5__ul">
+        <li class="block5__ul__item"><a href="#"> all</a></li>
+        <li class="block5__ul__item"><a href="#"> web</a></li>
+        <li class="block5__ul__item"><a href="#"> apps</a></li>
+        <li class="block5__ul__item"><a href="#"> icons</a></li>
+      </ul>
+      <ul class="portfolio__ul">
+        <li class="portfolio__ul__item">
+          <img src="src/img/portfimage1.png " alt="portfolio-image">
+          <p>Isometric Perspective Mock-Up</p>
+        </li>
+        <li class="portfolio__ul__item">
+          <img src="src/img/portfimage2.png" alt="portfolio-image">
+          <p>Time Zone App UI</p>
+        </li>
+        <li class="portfolio__ul__item">
+          <img src="src/img/portfimage3.png" alt="portfolio-image">
+          <p>Viro Media Players UI</p>
+        </li>
+        <li class="portfolio__ul__item">
+          <img src="src/img/portfimage4.png" alt="portfolio-image">
+          <p>Blog / Magazine Flat UI Kit</p>
+        </li>
+      </ul>
+      <div class="button-wrapper">
+        <button class="button button-block5">Lead more projects</button>
       </div>
-   </section>
-   <section class="block5">
-      <div class="container">
-         <h3 class="block5__text">Our porfolio</h3>
-         <p class="block5__text_p">When you were here before Couldn't look you in the eye You're just like an angel<br> Your skin makes me cry You float like a feather In a beautiful world I wish I was special You're so fuckin' special </p>
-         <ul class="block5__ul">
-            <li class="block5__ul__item"><a href="#"> all</a></li>
-            <li class="block5__ul__item"><a href="#"> web</a></li>
-            <li class="block5__ul__item"><a href="#"> apps</a></li>
-            <li class="block5__ul__item"><a href="#"> icons</a></li>
-         </ul>
-            <ul class="portfolio__ul">
-               <li class="portfolio__ul__item">
-                  <img src="src/img/portfimage1.png " alt="portfolio-image">
-                     <p>Isometric Perspective Mock-Up</p>
-               </li>
-               <li class="portfolio__ul__item">
-                  <img src="src/img/portfimage2.png" alt="portfolio-image">
-                     <p>Time Zone App UI</p>
-               </li>
-               <li class="portfolio__ul__item">
-                  <img src="src/img/portfimage3.png" alt="portfolio-image">
-                     <p>Viro Media Players UI</p>
-               </li>
-               <li class="portfolio__ul__item">
-                  <img src="src/img/portfimage4.png" alt="portfolio-image">
-                     <p>Blog / Magazine Flat UI Kit</p>
-               </li>
-         </ul>
-         <div class="button-wrapper">
-         <button class="block5__button">Lead more projects</button>
-      </div>
-      </div>
-   </section>
-   <section class="block6">
-      <div class="container">
-      <h3 class="block6__text">WHAT POEPLE SAY ABOUT US</h3>
-      <p class="block6__text_p">Our clients love us! </p>
+    </div>
+  </section>
+  <section class="block6">
+    <div class="container post">
+      <h3 class="block__text block6-text">WHAT POEPLE SAY ABOUT US</h3>
+      <p class="block__text__p">Our clients love us! </p>
       <ul class="block6__ul">
-         <li class="block6__ul__item">
-            <div class="block6__ul__item__wrapper">
+        <li class="block6__ul__item">
+          <div class="block6__ul__item__wrapper">
             <img src="/src/img/ps.jpg" class="block6__ul__item__img" alt="" class="block6__ul__item__img">
             <div class="block6__text__wrapper">
-            <blockquote><em>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringlilla urna eu nisi scelerisque.”</em></blockquote>
-            <h2>Chanel Iman</h2>
-            <h3>CEO of Pinterest<h3>
+              <blockquote><em>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringlilla urna eu nisi scelerisque.”</em></blockquote>
+              <h2>Chanel Iman</h2>
+              <h3>CEO of Pinterest<h3>
                </div>
                </div>
          </li>
@@ -235,74 +269,101 @@
             <h2>ADRIANA LIMA</h2>
             <h3>Founder of Instagram</h3>
             </div>
-         </div>
-         </li>
-         <li class="block6__ul__item">
-               <div class="block6__ul__item__wrapper">
+          </div>
+        </li>
+        <li class="block6__ul__item">
+          <div class="block6__ul__item__wrapper">
             <img src="/src/img/pf.jpg" class="block6__ul__item__img" alt="" class="block6__ul__item__img">
             <div class="block6__text__wrapper">
-           <blockquote><em>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
+              <blockquote><em>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”
             </em></blockquote>
-            <h2>ANNE HATHAWAY</h2>
-            <h3>Lead Designer at Behance</h3>
+              <h2>ANNE HATHAWAY</h2>
+              <h3>Lead Designer at Behance</h3>
             </div>
-         </div>
-         </li>
-         <li class="block6__ul__item">
-               <div class="block6__ul__item__wrapper">
+          </div>
+        </li>
+        <li class="block6__ul__item">
+          <div class="block6__ul__item__wrapper">
             <img src="/src/img/js.jpg" class="block6__ul__item__img" alt="" class="block6__ul__item__img">
             <div class="block6__text__wrapper">
-            <blockquote><em>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus.”
+              <blockquote><em>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus.”
             </em></blockquote>
-            <h2>EMMA STONE</h2>
-            <h3>Co-Founder of Shazam</h3>
-         </div>
-         </div>
-         </li>
+              <h2>EMMA STONE</h2>
+              <h3>Co-Founder of Shazam</h3>
+            </div>
+          </div>
+        </li>
       </ul>
-   </div>
-   </section>
-   <section class="block7">
-      <div class="container">
-         <h3 class="block7__text">get in touch</h3>
-         <p class="block7__text_p">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel:(202) 456- 1111</p>
-         <form action="asdasd" class="block7__form">
-            <div class="flex-container">
-               <div class="flex__item">
+    </div>
+  </section>
+  <section class="block7 ">
+    <div class="container post">
+      <h3 class="block__text block7-text">get in touch</h3>
+      <p class="block__text__p">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel:(202) 456- 1111</p>
+      <form action="Userform" class="block7__form">
+        <div class="flex-container">
+          <div class="flex__item">
             <input class="block7__form__item" type="Name" placeholder="YourName" id="name">
             <label for="name"></label>
-         </div>
-            <div class="flex__item">
-               <input class="block7__form__item" type="email" name="YourEmail" placeholder="YourEmail"  id="">
-               <label for="name"></label>
-            </div>
-            <div class="flex__item">
-                <textarea class="block7__form__item__textarea" name="Your Message" id="Message" cols="30" rows="10">YourMessage</textarea>
-               </div>
-            <div class="flex-item flex-item-last">
-                  <input type="submit" class="submit-button" value="Send message">  
-            </div>
-         </div>
-         </form>
-      </div>
-      </div>  
-   </section>
-   <footer class="main-footer">
-      <div class="container">
+          </div>
+          <div class="flex__item">
+            <input class="block7__form__item" type="email" name="YourEmail" placeholder="YourEmail" id="">
+            <label for="name"></label>
+          </div>
+          <div class="flex__item">
+            <textarea class="block7__form__item__textarea" placeholder="YourMessage" name="Your Message" id="Message" cols="30" rows="10"></textarea>
+          </div>
+          <div class="flex-item flex-item-last">
+            <input type="submit" class="button block7-button" value="Send message">
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="container">
       <ul class="main-footer__ul">
-         <li class="main-footer__ul__item"><a href="#">Facebook</a></li>
-         <li class="main-footer__ul__item"><a href="#">Twitter</a></li>
-         <li class="main-footer__ul__item"><a href="#">Google</a></li>
-         <li class="main-footer__ul__item"><a href="#">Linked</a></li>
-         <li class="main-footer__ul__item"><a href="#">Behanc</a></li>
-         <li class="main-footer__ul__item"><a href="#">Dribbb</a></li>
-         <li class="main-footer__ul__item"><a href="#">GitHub</a></li>
+        <li class="main-footer__ul__item"><a href="#">Facebook</a></li>
+        <li class="main-footer__ul__item"><a href="#">Twitter</a></li>
+        <li class="main-footer__ul__item"><a href="#">Google</a></li>
+        <li class="main-footer__ul__item"><a href="#">Linked</a></li>
+        <li class="main-footer__ul__item"><a href="#">Behanc</a></li>
+        <li class="main-footer__ul__item"><a href="#">Dribbb</a></li>
+        <li class="main-footer__ul__item"><a href="#">GitHub</a></li>
       </ul>
-   </div>
-   </footer>
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-   <script src="build/js/script.js"></script>
+    </div>
+  </footer>
+
 </body>
+<section class="popup-contacts">
+  <div class="container">
+    <div class="popup-wrapper">
+       <span class="close"></span>
+       <h2>Обратная связь</h2>
+       <p>Оставьте ваши контактные данные и наш консультант свяжется с вами в течении 5 секунд</p>
+    <form action="Contacts form" class="contacts-form">
+      <label for="Name"></label>
+       <input class="contacts-form__item" type="text" placeholder="Ваше имя" name="Name" id="Name">
+      <label for="email"></label>
+       <input class="contacts-form__item" type="email" placeholder="Введите ваш E-mail" id="email">
+       <label for="Phone"></label>
+       <input class="contacts-form__item" type="Phone" placeholder="Введите ваш телефон" id="Phone">
+       <label for="submit"></label>
+       <input class="contacts-form__item contacts-form__button_green" type="submit" value="Пошел нахуй" name="submit" id="submit" >
+    </form>
+   </div>
+  </div>
+  </section>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="build/js/script.js"></script>
 </html>
+
+
+
+
+
+
+
+

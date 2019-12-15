@@ -15,4 +15,5 @@
 }
 .main-footer__ul__item a:hover{
   color: #30bae7;
+  transition: 0.7s;
 }

@@ -1,6 +1,8 @@
 .block6{
     background-color: #d74680;
     color: white;
+    padding-bottom: 120px;
+    padding-top: 110px;
 }
 .block6__ul__item__img{
     display: inline-block;
@@ -8,34 +10,10 @@
     height: 90px;
     border-radius: 50%; 
 }
-.block6__text::after
-{
-    content: "";
-    display: block;
-   margin-top: 10px;
-   margin: 20px auto;
-    width: 107px;
-    height: 4px;
-    background: black;
-    opacity: 0.15;
-}
-.block6__text{
-    font-size: 40px;
-    padding-top: 110px;
-    text-align: center;
-    text-transform: uppercase;   
-}
-.block6__text_p{
-    font-weight: lighter;
-   padding-bottom: 40px;
-    text-align: center;
-}
-
 .block6__ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 40px;
 }
 .block6__ul__item__wrapper{
     display: flex;

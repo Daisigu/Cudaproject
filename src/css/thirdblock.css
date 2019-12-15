@@ -1,10 +1,13 @@
 .block3{
     background-color: #e7f1f8;
     color: #3c4761;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    text-align: center;
 }
 .block3__ul{
 display: flex;
-text-align: center;
+justify-content: space-around;
 }
 .block3__ul__item{
     padding-left: 20px;
@@ -28,36 +31,10 @@ text-align: center;
     color: #79d0ee;
     font-weight: lighter;
 }
-.block3__text{
-    font-size: 40px;
-    padding-top: 110px;
-    text-align: center;
-    
-}
-.block3__text_p{
-    font-weight: lighter;
-   padding-bottom: 73px;
-    text-align: center;
-}
-.block3__text::after
-{
-    content: "";
-    display: block;
-    
- 
-   margin-top: 10px;
-   margin: 20px auto;
-    width: 107px;
-    height: 4px;
-    background: black;
-    opacity: 0.15;
- 
-}
 .socialbutton_ul{
-    padding: 0px 40px;
-display: flex;
-justify-content: space-around;
-padding-bottom: 120px;
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-around;
 }
 .socialbutton_ul__item{
     display: block;
@@ -66,6 +43,8 @@ padding-bottom: 120px;
     background-color: #bdd1df;
 border-radius: 50%;
 padding: 3px;
+margin-left: 2px;
+margin-right: 2px;
 border: none;
 }
 .socialbutton_ul__item> img{
@@ -73,5 +52,5 @@ border: none;
 }
 .socialbutton_ul__item:hover{
 background-color: #87a0b1;
+transition: 0.7s;
 }
-
