@@ -56,3 +56,13 @@ ul, li{
         padding-bottom: 20px;
     }
 }
+@media (max-width: 411px){
+.container{
+   width: 400px;
+}
+}
+@media (max-width: 768px){
+    .container{
+       width: 720px;
+    }
+    }

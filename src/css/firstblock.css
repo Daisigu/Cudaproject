@@ -45,6 +45,10 @@ align-items: flex-end;
     background-color: #eb7d4b;
     box-shadow: 0 5px 1px rgb(200,106,64);  
 }
+.header_button:hover{
+    background-color: #ce6433;
+    box-shadow: 0 5px 1px rgb(153, 75, 39);
+}
 .header__text{
     margin-top: 139px;
 }
@@ -70,4 +74,7 @@ align-items: flex-end;
         margin: 0;
     }
 
+}
+@media (max-width: 992px){
+ 
 }

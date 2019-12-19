@@ -43,3 +43,13 @@
         padding-top: 20px;
     }
 }
+@media (max-width: 768px){
+ 
+   .block4__ul__item{
+       padding: 20px;
+   }
+   .block4__ul__item p{
+       text-align: center;
+       margin-left: 40px;
+   }
+}

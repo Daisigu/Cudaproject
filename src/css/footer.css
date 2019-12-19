@@ -32,3 +32,14 @@
         font-size: 13px;
     }
 }
+@media (max-width: 768px){
+    .container{
+        width: 360px;
+        padding-right: 5px;
+        padding-left: 5px;
+     
+    }
+    .main-footer__ul__item{
+        padding: 30px 10px;
+    }
+}

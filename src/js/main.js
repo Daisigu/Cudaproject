@@ -20,4 +20,7 @@ $(document).mouseup(function (e){ // событие клика по веб-до�
                 div.hide(300); // скрываем его
         }
 });
+$('.block5__ul__item a').click(function( event ) {    
+          event.preventDefault();      
+        });
 });

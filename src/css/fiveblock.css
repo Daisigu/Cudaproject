@@ -19,6 +19,7 @@
     border-radius: 4px;
     text-transform: uppercase;
     padding-top: 2px;
+    cursor: pointer;
 }
 .block5__ul__item a{
     color:#534f46;
@@ -41,10 +42,15 @@
 }
 .portfolio__ul__item{
     margin-right: 14px;
+   
 }
 .button-block5{
     background-color: #17c2a4;
     box-shadow: 0 5px 1px rgb(20,165,140);
+}
+.button-block5:hover{
+    background-color:#09a084;
+    box-shadow: 0 5px 1px rgb(3, 63, 53);
 }
 .block5__text__p-mod{
     padding-bottom: 20px;
@@ -71,3 +77,18 @@
         padding-bottom: 20px;
     }
 }
+@media (max-width: 768px){
+    .portfolio__ul{
+    display: block;
+    }
+    .portfolio__ul__item{
+        padding-top: 20px;
+    }
+    .portfolio__ul__item p{
+        padding-top: 10px;
+    }
+    .block5__text__p{
+        padding-bottom: 20px;
+    }
+}
+

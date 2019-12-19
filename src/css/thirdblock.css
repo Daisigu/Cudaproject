@@ -46,6 +46,7 @@ padding: 3px;
 margin-left: 2px;
 margin-right: 2px;
 border: none;
+cursor: pointer;
 }
 .socialbutton_ul__item> img{
     padding: 6px;
@@ -53,6 +54,7 @@ border: none;
 .socialbutton_ul__item:hover{
 background-color: #87a0b1;
 transition: 0.7s;
+
 }
 @media (max-width: 377px){
 
@@ -66,4 +68,16 @@ transition: 0.7s;
         padding-left: 70px;
         padding-right: 70px;
     }
+}
+@media (max-width: 768px){
+    .block3__ul{
+        display: block;
+    }
+.block3__ul__item{
+    padding-top: 20px;
+}
+.socialbutton_ul{
+    padding-left: 250px;
+    padding-right: 250px;
+}
 }

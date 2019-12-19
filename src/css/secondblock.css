@@ -37,3 +37,14 @@
         display: block;
     }
 }
+@media (max-width: 411px){
+    .block2__ul{
+    display: block;
+    }
+    }
+    @media (max-width: 768px){
+        .block2__ul{
+        display: block;
+        }
+        }
+

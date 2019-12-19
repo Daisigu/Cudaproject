@@ -69,7 +69,7 @@
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: black;
+    background-color: white;
 }
 .close:before {
     transform: rotate(45deg);
