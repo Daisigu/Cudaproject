@@ -21,7 +21,8 @@ const cssFiles = [
    './src/css/footer.css',
    './src/css/popupcontacts.css',
    './src/css/animate.css',
-   './src/css/main.css'
+   './src/css/main.css',
+   './src/css/media.css'
 ]
 //Порядок подключения js файлов
 const jsFiles = [

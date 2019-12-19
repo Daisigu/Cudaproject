@@ -17,3 +17,18 @@
   color: #30bae7;
   transition: 0.7s;
 }
+@media (max-width: 377px){
+    .container{
+        width: 360px;
+        padding-right: 5px;
+        padding-left: 5px;
+     
+    }
+    .main-footer__ul__item{
+        padding: 2px;
+      
+    }
+    .main-footer__ul__item a{
+        font-size: 13px;
+    }
+}

@@ -42,3 +42,12 @@
     background-color: #30bae7;
     box-shadow: 0 5px 1px rgb(41,158,197);
 }
+@media (max-width: 377px){
+    
+    .block7__form__item{
+  margin: 5px;
+    }
+    .block7__form__item__textarea{
+        width: 350px;
+    }
+}

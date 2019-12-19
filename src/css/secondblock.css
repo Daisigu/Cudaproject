@@ -32,3 +32,8 @@
     font-size: 16px;
     font-weight: lighter;
 }
+@media (max-width: 377px){
+    .block2__ul{
+        display: block;
+    }
+}

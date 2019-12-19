@@ -54,3 +54,16 @@ border: none;
 background-color: #87a0b1;
 transition: 0.7s;
 }
+@media (max-width: 377px){
+
+    .block3__ul{
+        display: block;
+    }
+    .block3__ul__item{
+        padding-top: 20px;
+    }
+    .socialbutton_ul{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
