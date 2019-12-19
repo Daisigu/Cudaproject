@@ -46,7 +46,7 @@
     background-color: #1d9cc7;
     box-shadow: 0 5px 1px rgb(26, 124, 156); 
 }
-@media (max-width: 377px){
+@media screen and (max-width: 377px){
     
     .block7__form__item{
   margin: 5px;
@@ -55,7 +55,18 @@
         width: 350px;
     }
 }
-@media (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 769px){
 
+.block7__form__item{
+width: 205px;
+}
+.block7__form__item__textarea{
+    width: 500px;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .block7__form__item{
+        width: 300px;
+    }
 }
 

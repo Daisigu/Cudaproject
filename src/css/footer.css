@@ -32,14 +32,19 @@
         font-size: 13px;
     }
 }
-@media (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 769px){
     .container{
-        width: 360px;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
      
     }
     .main-footer__ul__item{
-        padding: 30px 10px;
+        padding: 20px 10px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .main-footer__ul__item{
+      
+        padding: 20px 10px;
     }
 }

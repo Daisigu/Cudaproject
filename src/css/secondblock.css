@@ -32,19 +32,30 @@
     font-size: 16px;
     font-weight: lighter;
 }
-@media (max-width: 377px){
+@media screen and (max-width: 377px){
     .block2__ul{
         display: block;
     }
 }
-@media (max-width: 411px){
+@media screen and (min-width: 769px) and (max-width: 992px){
     .block2__ul{
-    display: block;
+        flex-wrap: wrap;
     }
-    }
-    @media (max-width: 768px){
-        .block2__ul{
+    .block2__ul__item{
         display: block;
-        }
-        }
+        width: 250px;
+        padding: 10px;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 769px){
+    .block2__ul{
+        flex-wrap: wrap;
+    }
+    .block2__ul__item{
+        display: block;
+        width: 250px;
+    }
+}
 

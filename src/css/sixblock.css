@@ -46,12 +46,21 @@
     width: 350px;
     padding-left: 30px;
 }
-@media (max-width: 377px){
+@media screen and (max-width: 377px){
  
     .block6__ul__item__wrapper{
         width: 300px;
     }
     .block6{
         padding-bottom: 50px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .block6__ul__item__wrapper{
+        width: 300px;
+    }
+
+    .block6__ul__item{
+        margin: 20px;
     }
 }
