@@ -37,19 +37,24 @@
         display: block;
     }
 }
+@media screen and (min-width: 377px) and (max-width: 576px){
+  .block2__ul{
+      display: block;
+  }
+}
 @media screen and (min-width: 769px) and (max-width: 992px){
     .block2__ul{
         flex-wrap: wrap;
     }
     .block2__ul__item{
         display: block;
-        width: 250px;
+        max-width: 350px;
         padding: 10px;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 769px){
+@media screen and (min-width: 577px) and (max-width: 768px){
     .block2__ul{
         flex-wrap: wrap;
     }

@@ -55,7 +55,16 @@
         width: 350px;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 769px){
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .block7__form__item{
+        max-width: 400px;
+        margin: 5px 0px;
+        }
+        .block7__form__item__textarea{
+            max-width: 350px;
+        }
+        }
+@media screen and (min-width: 577px) and (max-width: 769px){
 
 .block7__form__item{
 width: 205px;

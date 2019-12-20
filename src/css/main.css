@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .button{
     border-radius: 3px;
     display: block;
@@ -50,19 +53,32 @@ ul, li{
 }
 @media screen and (max-width: 377px){
     .container{
-        width: 360px;
+        max-width: 360px;
     }
     .block__text__p{
         padding-bottom: 20px;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 769px){
+@media screen and (min-width: 377px) and (max-width: 576px){
     .container{
-       width: 720px;
+        max-width: 540px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .container{
+       max-width: 720px;
     }
     }
     @media screen and (min-width: 769px) and (max-width: 992px){
         .container{
-           width: 960px;
+           max-width: 960px;
+           padding-right: 20px;
+           padding-left: 20px;
         }
         }
+        @media screen and (min-width: 993px) and (max-width: 1200px){
+.container{
+    max-width: 1140px;
+}
+        }
+  

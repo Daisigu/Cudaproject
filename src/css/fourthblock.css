@@ -34,16 +34,21 @@
 @media screen and (max-width: 377px){
  
     .block4__ul{
-        display: block;
+        display: table;
+        margin: auto;
     }
     .block4__ul__item{
         text-align: center;
-        margin-left: 80px;
-        margin-right: 0;
         padding-top: 20px;
     }
 }
-@media screen and (min-width: 576px) and (max-width: 769px){
+@media screen and (min-width: 377px) and (max-width: 576px){
+    .block4__ul{
+        display: table;
+        margin: auto;
+    }
+  }
+@media screen and (min-width: 577px) and (max-width: 768px){
  
    .block4__ul__item{
        padding: 30px;
@@ -53,6 +58,9 @@
    }
    .block4__ul__item p{
        text-align: center;
-       margin-left: 40px;
+       margin: 0;
+   }
+   .block4__ul__item{
+       width: 250px;
    }
 }

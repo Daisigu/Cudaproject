@@ -56,6 +56,9 @@ align-items: flex-end;
     .menu{
         display: block;
     }
+    .header__text{
+        font-size: 35px;
+    }
     .flex-wrapper{
         display: block;
     }
@@ -75,7 +78,32 @@ align-items: flex-end;
     }
 
 }
-@media screen and (min-width: 576px) and (max-width: 769px){
+@media screen and (min-width: 377px) and (max-width: 576px){
+ .flex-wrapper{
+     display: block;
+ }
+ .logo{
+     text-align: center;
+     display: block;
+     margin: 0 auto;
+     padding-bottom: 20px;
+ }
+ .header__text{
+    margin-top: 50px;
+     font-size: 35px;
+ }
+ .menu__item{
+     margin-left: 5px;
+    
+ }
+ .menu__item a{
+    padding: 5px;
+ }
+ .menu-bar__list{
+     justify-content: center;
+ }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
     .flex-wrapper{
         display: block;
     }
