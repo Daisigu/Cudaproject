@@ -22,10 +22,11 @@ justify-content: space-around;
  overflow: hidden;
  height: 205px;
  width: 205px;
-
 }
-
-
+.block3__img-wrapper {
+    display: block;
+    margin: 0 auto;
+    }
 .block3__ul h2{
     font-size: 26px;
     padding-bottom: 3px;

@@ -61,13 +61,11 @@ align-items: flex-end;
     .flex-wrapper{
         display: block;
     }
-    .menu-bar-list{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
     .menu__item a{
         padding: 2px;
+    }
+    .menu-bar__list{
+        justify-content: center;
     }
     .menu__item{
         margin-left: 5px;
