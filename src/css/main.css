@@ -58,6 +58,7 @@ ul, li{
     .block__text__p{
         padding-bottom: 20px;
     }
+    
 }
 @media screen and (min-width: 377px) and (max-width: 576px){
     .container{

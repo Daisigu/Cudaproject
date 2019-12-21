@@ -64,6 +64,8 @@ align-items: flex-end;
     }
     .menu-bar-list{
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .menu__item a{
         padding: 2px;
