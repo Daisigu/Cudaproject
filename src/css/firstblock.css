@@ -1,5 +1,4 @@
 .main-header{
-  
     background-color: #8d59a0;
     color: white;
     text-align: center;
@@ -52,7 +51,7 @@ align-items: flex-end;
 .header__text{
     margin-top: 139px;
 }
-@media screen and (max-width: 377px){
+@media screen and (max-width: 376px){
     .menu{
         display: block;
     }
