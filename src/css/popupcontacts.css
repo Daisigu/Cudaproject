@@ -82,7 +82,7 @@
 }
 @media screen and (max-width: 377px){
 .popup-wrapper{
-    width: 300px;
+    max-width: 300px;
     top:50px;
     right: 40px;
     height: auto;

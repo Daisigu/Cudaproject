@@ -49,10 +49,10 @@
 @media screen and (max-width: 377px){
     
     .block7__form__item{
-  margin: 5px;
+  margin: 0;
     }
     .block7__form__item__textarea{
-        width: 350px;
+        max-width: 306px;
     }
 }
 @media screen and (min-width: 377px) and (max-width: 576px){

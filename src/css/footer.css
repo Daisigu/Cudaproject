@@ -17,16 +17,9 @@
   color: #30bae7;
   transition: 0.7s;
 }
-@media (max-width: 377px){
-    .container{
-        width: 360px;
-        padding-right: 5px;
-        padding-left: 5px;
-     
-    }
+@media screen and (max-width: 377px){
     .main-footer__ul__item{
         padding: 2px;
-      
     }
     .main-footer__ul__item a{
         font-size: 13px;
@@ -44,18 +37,13 @@
     }
 }
 @media screen and (min-width: 577px) and (max-width: 768px){
-    .container{
-        padding-right: 10px;
-        padding-left: 10px;
-     
-    }
+
     .main-footer__ul__item{
         padding: 20px 10px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px){
     .main-footer__ul__item{
-      
         padding: 20px 10px;
     }
 }

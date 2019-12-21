@@ -52,12 +52,12 @@ align-items: flex-end;
 .header__text{
     margin-top: 139px;
 }
-@media (max-width: 377px){
+@media screen and (max-width: 377px){
     .menu{
         display: block;
     }
     .header__text{
-        font-size: 35px;
+        font-size: 32px;
     }
     .flex-wrapper{
         display: block;
@@ -68,12 +68,18 @@ align-items: flex-end;
     .menu__item a{
         padding: 2px;
     }
+    .menu__item{
+        margin-left: 5px;
+    }
     .logo-img-wrapper{
        display: block;
        text-align: center;
        padding-bottom: 20px;
     }
     .header__text{
+        margin: 0;
+    }
+    .row{
         margin: 0;
     }
 
