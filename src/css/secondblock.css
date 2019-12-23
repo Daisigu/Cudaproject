@@ -18,6 +18,7 @@
     display: block;
     align-self: center;
     padding: 30px;
+    margin: 0 auto;
 }
 .block2__ul__item img{
     height: 134px;
