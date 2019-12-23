@@ -5,10 +5,13 @@
 .popup-wrapper{
     display: block;
     position: fixed;
-    top: 200px;
-    right: 33%;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
     display: block;
-    width: 450px;
+    width: 400px;
     height: 500px;
     background-color: #344b8e;
     color: white;
@@ -82,15 +85,63 @@
 }
 @media screen and (max-width: 377px){
 .popup-wrapper{
-    max-width: 300px;
-    top:50px;
-    right: 40px;
+    max-width: 250px;
+    margin:auto;
+    left:0;
+    right:0;  
     height: auto;
+    padding: 20px;
 }   
 .popup-wrapper h2{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.popup-wrapper p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.contacts-form__item{
+    width: 200px;
+    margin: 5px;
+}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+ .popup-wrapper{
+    top: 22%;
+    right: 25%;
+ }
+}
+@media screen and (min-width: 377px) and (max-width: 576px){
+   .popup-wrapper{
+       width: 300px;
+    margin:auto;
+    left:0;
+    right:0;  
+ }
+ .popup-wrapper h2{
     font-size: 20px;
 }
 .popup-wrapper p{
     font-size: 13px;
-}}
+}
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+  .popup-wrapper{
+      width: 400px;
+      margin:auto;
+left:0;
+right:0;
 
+ }
+
+    }
+    @media screen and (min-width: 769px) and (max-width: 992px){
+       .popup-wrapper{
+        margin:auto;
+        left:0;
+        right:0;
+        
+ }
+        }
